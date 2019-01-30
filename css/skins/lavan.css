@@ -1,0 +1,448 @@
+/*---------------------- 
+  COLOR CSS GUIDE
+------------------------
+ 
+1.  BASE
+2.  BUTTONS
+3.  PARALLAX
+4.  ICONS
+5.  COUNTDOWN
+6.  SETTINGS
+7.  IMAGES
+8.  HEADER
+9.  NAVIGATION
+10. SLIDER
+11. RSVP
+12. PAGES
+13. FOOTER
+14. PAGINATION
+*/
+/** BASE **/
+body {
+  color: #444444;
+}
+
+a {
+  color: #7b5da5;
+}
+
+.il-item a .over span::after {
+  color: #7b5da5;
+}
+
+a:hover {
+  color: #444444;
+}
+
+.spinner:before, .spinner:after {
+  background-color: #7b5da5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #14202c;
+}
+
+.parent-bg {
+  background-color: #7b5da5;
+  color: #fff;
+}
+
+::-moz-selection {
+  background-color: #7b5da5;
+  color: #fff;
+}
+
+::selection {
+  background-color: #7b5da5;
+  color: #fff;
+}
+
+.page-head-title i {
+  color: #7b5da5;
+}
+
+.spacer hr {
+  border-top: 2px solid #7b5da5;
+}
+
+.spacer i {
+  color: #7b5da5;
+}
+
+.spacer i.grey-icon {
+  color: #dddddd;
+}
+
+hr {
+  border-top: 2px solid #eeeeee;
+}
+
+/** BUTTONS **/
+button.small-button, a.small-button, input.small-button[type="submit"], input#searchsubmit {
+  border: 2px solid #7b5da5;
+  background-color: #7b5da5;
+  color: #fff;
+}
+
+button.medium-button, a.medium-button, input.medium-button[type="submit"] {
+  border: 2px solid #7b5da5;
+  background-color: #7b5da5;
+  color: #fff;
+}
+
+button.large-button, a.large-button, input.large-button[type="submit"] {
+  border: 2px solid #7b5da5;
+  background-color: #7b5da5;
+  color: #fff;
+}
+
+button.small-button:hover, a.small-button:hover, input.small-button[type="submit"]:hover,
+button.medium-button:hover, a.medium-button:hover, input.medium-button[type="submit"]:hover,
+button.large-button:hover, a.large-button:hover, input.large-button[type="submit"]:hover {
+  border: 2px solid #7b5da5;
+  -webkit-transition: all .7s ease;
+  -moz-transition: all .7s ease;
+  transition: all .7s ease;
+  background: #fff;
+  color: #7b5da5;
+}
+
+span.filter:hover, span.filter.active {
+  color: #7b5da5;
+  -webkit-transition: all .7s ease;
+  -moz-transition: all .7s ease;
+  transition: all .7s ease;
+}
+
+ul#filters-cat {
+  border: 1px solid #7b5da5;
+}
+
+/** TEXT ELEMENTS **/
+blockquote {
+  background: #eee;
+  border-left: 5px solid #7b5da5;
+  border-top: 1px solid #7b5da5;
+  border-right: 1px solid #7b5da5;
+  border-bottom: 1px solid #7b5da5;
+}
+
+blockquote span.author {
+  font-weight: bold;
+}
+
+.dropcap {
+  color: #7b5da5;
+}
+
+ul.circled-list li::before {
+  background: #7b5da5;
+}
+
+/** PARALLAX **/
+.my-parallax {
+  color: #fff;
+}
+
+.my-parallax h1, .my-parallax h2, .my-parallax h3, .my-parallax h4, .my-parallax h5, .my-parallax h6 {
+  color: #fff;
+}
+
+.my-parallax-overlay, .footer-background-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bottom-border {
+  border-bottom: 3px solid #7b5da5;
+}
+
+/** ICONS **/
+.sharp-icon, a .outline-icon:hover {
+  background: #7b5da5;
+  color: #fff;
+  border: 2px solid #7b5da5;
+}
+
+.outline-icon, a .sharp-icon:hover {
+  background: #fff;
+  color: #7b5da5;
+  border: 2px solid #7b5da5;
+}
+
+/** COUNTDOWN **/
+.countdown-num span {
+  border: 3px solid #7b5da5;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/** SETTINGS **/
+.swatches {
+  color: #fff;
+}
+
+.pattern-1, .pattern-2, .pattern-3, .pattern-none {
+  border: 1px solid #DDD;
+}
+
+#options-setting {
+  background-color: #FFF;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+.setting-icon {
+  background-color: #fff;
+  color: #7b5da5;
+  border-top: 2px solid #7b5da5;
+  border-right: 2px solid #7b5da5;
+  border-bottom: 2px solid #7b5da5;
+}
+
+span.pattern-swatches {
+  color: #444444;
+}
+
+/** IMAGES **/
+.rounded img {
+  background: #fff;
+}
+
+.img-item img {
+  border: 1px solid #dddddd;
+}
+
+.img-popup-text {
+  background: #fff;
+}
+
+/** HEADER **/
+.logo hr {
+  border-top: 2px solid #7b5da5;
+}
+
+.logo i {
+  color: #7b5da5;
+}
+
+.logo i.grey-icon {
+  color: #dddddd;
+}
+
+.nav-bg {
+  background-color: #f2f2f2;
+}
+
+.navbar-theme-one .top-desription {
+  color: #14202c;
+}
+
+/** NAVIGATION **/
+.navbar-theme-one .navbar-nav > li > a {
+  color: #14202c;
+}
+
+.navbar-theme-two .navbar-nav > li > a {
+  color: #14202c;
+}
+
+.navbar-theme-three .nav-bg {
+  background-color: rgba(255, 255, 255, 0.84);
+}
+
+.navbar-theme-three .navbar-nav > li > a {
+  color: #14202c;
+}
+
+.nav > li > a:focus, .nav > li > a:hover, .nav > li.active > a {
+  color: #7b5da5;
+  background-color: transparent;
+}
+
+.nav .open > a {
+  border-color: #14202c;
+}
+
+.nav .open > a:focus, .nav .open > a:hover {
+  border-color: #7b5da5;
+}
+
+.theme-dropdown {
+  background-color: #f2f2f2;
+}
+
+.theme-dropdown > li {
+  border-bottom: 1px solid #dddddd;
+}
+
+.theme-dropdown > li:last-child {
+  border-bottom: none;
+}
+
+.theme-dropdown > li > a {
+  color: #444444;
+}
+
+.theme-dropdown > li > a:focus, .theme-dropdown > li > a:hover {
+  color: #7b5da5;
+}
+
+.theme-dropdown > .active > a, .theme-dropdown > .active > a:focus, .theme-dropdown > .active > a:hover {
+  color: #7b5da5;
+  background: transparent;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #7b5da5;
+}
+
+/** SLIDER **/
+#main-slider .slider-inner {
+  color: #fff;
+}
+
+#main-slider .slider-content {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #444444;
+}
+
+#main-slider .slider-content h2 i {
+  color: #7b5da5;
+}
+
+#main-slider p.date {
+  border: 1px solid #777777;
+  color: #777777;
+}
+
+.owl-prev, .owl-next {
+  color: #fff;
+}
+
+.owl-controls .owl-page span {
+  background: #7b5da5;
+}
+
+/** RSVP FORM **/
+form input:focus, form textarea:focus {
+  border: 1px solid #7b5da5;
+}
+
+span.color-element {
+  color: #7b5da5;
+}
+
+.help-block li {
+  color: #7b5da5;
+}
+
+/** PAGES **/
+.breadcrumb {
+  background-color: transparent;
+  color: #fff;
+}
+
+.breadcrumb > .active {
+  color: #fff;
+}
+
+.breadcrumb a, .breadcrumb a:focus {
+  color: #fff;
+  font-weight: 700;
+}
+
+.breadcrumb a:hover {
+  color: #ddd;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.blog-post-content h4 {
+  color: #fff;
+}
+
+.post-info {
+  border-bottom: 2px solid #dddddd;
+}
+
+.blog-single-sidebar-item {
+  border-bottom: 2px solid #dddddd;
+}
+
+.blog-single-sidebar-item ul.tags li a {
+  background-color: #7b5da5;
+  color: #fff;
+  border: 1px solid #7b5da5;
+}
+
+.blog-single-sidebar-item ul.tags li a:hover {
+  color: #7b5da5;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  transition: all .4s ease;
+  background: #fff;
+  border: 1px solid #7b5da5;
+}
+
+/** FOOTER **/
+.footer-top-content {
+  color: #fff;
+}
+
+.footer-top-content h3 {
+  color: #fff;
+}
+
+footer.bottom {
+  background-color: #fff;
+  color: #fff;
+}
+
+footer.bottom p {
+  color: #444444;
+}
+
+/** BLOG **/
+p.blog-post-date {
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  color: #fff;
+}
+
+/** PAGINATION **/
+span.page-numbers, a.page-numbers:hover {
+  background-color: #7b5da5;
+  border: 2px solid #7b5da5;
+  color: #fff;
+}
+
+a.page-numbers {
+  color: #7b5da5;
+  border: 2px solid #7b5da5;
+}
+
+.coming-soon-modal, h6.modal-title {
+  color: #444444;
+}
+
+table#wp-calendar tbody td {
+  background: #eeeeee;
+  border: 2px solid #fff;
+}
+
+table#wp-calendar tbody td.pad {
+  background: #fff;
+}
+
+table#wp-calendar tbody a {
+  color: #7b5da5;
+}
+
+.tagcloud a {
+  color: #fff;
+  background-color: #7b5da5;
+}
