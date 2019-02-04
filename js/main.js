@@ -200,9 +200,9 @@ $("input,textarea").jqBootstrapValidation(
     var message = $("#formMessage").val();
          
     $.ajax({
-      url: "./php/form.php",
-      type: "POST",
-      data: {name: name, phone: phone, email: email, message: message},
+      url: "https://heapweddingemailapp.azurewebsites.net/api/HttpTrigger1?name="+name+"&email="+email+"&phone="+phone+"&comments="+message+"&code=tet5rqnc5344Ayeam87uXb8kqAgMeJRDQMsNR/Sox4hK8qvYzhsesA==",
+      type: "GET",
+
       cache: false,
       success: function() {
         $('#contact-form').prepend( "<p class='text-center'>Thank You! Your message has been sent.</p><br>" );             
